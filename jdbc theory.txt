@@ -1,0 +1,20 @@
+            JDBC - Java database connectivity
+  JDBC is a application programming interface for java
+  Data will be fetch from database through java connectivity.
+  STEPS:
+  i. import the packages-(java.sql.*)
+  ii. load and register the driver (Add mysql connector)
+      load- com.mysql.jdbc.Driver
+      register - Class.forName("com.mysql.jdbc.Driver")
+  iii. establish the connection ("Connection conn = DriverManager.getConnection("URL","username","password")
+  iv. create the statement ("PreparedStatement pst=conn.prepareStatement())
+  v. execute the query
+  vi. process result
+  vii. close
+ -------------------------------------------------------
+ To load the driver , type mysql connector jar in browser , goto maven repository download the jar file or else you can copy the dependency plugins.
+ 1.Download my sql connector jar file and extract
+ 2. right click on project-> buildpath -> configure buildpath -> add external jars -> goto download and import mysql connector jar.
+ --------------------------------------------------------
+ youtube - https://youtu.be/y_YxwyYRJek?si=QOt4hg1913_bAsi5 - (Telusuko) 
+ 

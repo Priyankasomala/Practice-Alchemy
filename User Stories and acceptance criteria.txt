@@ -1,0 +1,79 @@
+USER STORIES:
+-------------
+    A user story is a short, simple description of a feature told from the perspective of the person 
+who desires the new capability, usually a user or customer of the system.
+    These stories use non-technical language to provide context for the development team and their efforts. 
+After reading a user story, the team knows why they are building, 
+                                           what they're building, and
+										   what value it creates. 
+
+What Is a Good User Story?
+-------------------------
+    Agile user stories are composed of three aspects which are card, 
+conversation, and confirmation:
+
+Card: Written description of the story, used for planning and as a reminder
+Conversation: Conversations about the story that serve to flesh out the details of the story
+Confirmation: Tests that convey and document details that can be used to determine when a story is complete.
+
+Why to create user stories?
+-----------------------
+Stories keep the focus on the user.
+Stories enable collaboration.
+Stories drive creative solutions.
+
+=================================================================================================
+How to write a Userstory?
+As a < type of user >, I want < some goal > so that < some reason > --Standard Template
+
+Example: Zomato application
+
+**As a user, I want to be able to sign up for an account using my email and password
+ so that I can access the platform's features and personalize my experience.
+**As a user, I want to be able to reset my password if I forget it
+ so that I can regain access to my account without assistance.
+**As a restaurant owner, I want to be able to create and manage my restaurant profile, including adding menu items, 
+ updating business hours, and responding to customer reviews, so that I can showcase my offerings effectively 
+ and engage with potential customers.
+ ==================================================================================================
+ 
+ ACCEPTANCE CRITERIA
+ ------------------
+	In Agile, acceptance criteria refer to a set of predefined requirements that must be met to mark a user story complete. 
+Acceptance criteria are also sometimes called the “definition of done” because they determine the scope and requirements 
+that must be executed by developers to consider the user story finished.
+
+How to write acceptance criteria?
+--------------------------------
+	There is a process in software engineering known as behavior-driven development. 
+It describes a process that encourages communication and collaboration between business participants 
+in a software project and the development team.
+
+Two Common Formats: Scenario-oriented format
+                    Rule oriented format
+					
+Scenario-oriented format:
+-----------------------
+	The scenario-oriented AC approach is inherited from behavior-driven development and is an excellent way 
+to set guidelines on when developers should begin and end testing a certain feature. 
+
+Scenario – In the first statement, you’ll have to write the name of the behavior that you’re describing.
+Given – The second statement refers to the beginning stage of the scenario.
+When – The third statement involves a particular action that you want the user to make.
+Then – This is used to describe the outcome of the third statement.
+And – You can use “And” to continue any statement except “Scenario.”
+=====================================================================================
+Example: Banking Application
+
+User story: As a credit cardholder, I want to receive a notification for remaining balance 
+            for every transaction so that i could not go to netbanking.
+			
+Scenario: Notification for the balance
+Given: The user has opened a bank account
+And: The user has received a credit card
+When: The user has made a transaction
+Then: The system notifies the user of their balance
+========================================================================================
+Rule oriented format:
+The rule-oriented format is basically like writing a simple bullet list with all the features you want your product to have.
+By doing this, you’ll ensure that the development team understands your vision clearly.
